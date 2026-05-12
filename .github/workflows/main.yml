@@ -42,7 +42,7 @@ jobs:
   build-windows:
     name: "💻 Windows"
     needs: build-sources
-    runs-on: windows-2022
+    runs-on: windows-2025-vs2026
     timeout-minutes: 240
     steps:
     - uses: actions/checkout@v6
