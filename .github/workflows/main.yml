@@ -97,8 +97,8 @@ jobs:
     - name: Extract Sources
       run: unzip deps-sources/deps-sources.zip
 
-    - name: Use Xcode 26.3
-      run: sudo xcode-select -s /Applications/Xcode_26.3.app
+    - name: Use Xcode 26.4
+      run: sudo xcode-select -s /Applications/Xcode_26.4.app
 
     - name: Build Dependencies
       run: ./build-dependencies-mac.sh -skip-download macos-universal
